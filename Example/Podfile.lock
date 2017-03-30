@@ -27,7 +27,7 @@ SPEC CHECKSUMS:
   Expecta: e1c022fcd33910b6be89c291d2775b3fe27a89fe
   Expecta+Snapshots: dcff217eef506dabd6dfdc7864ea2da321fafbb8
   FBSnapshotTestCase: '094f9f314decbabe373b87cc339bea235a63e07a'
-  KYSIOSShared: f7ee39dbab1d8787b99b50e18f9027e1a400c4f3
+  KYSIOSShared: 359d413ebbb6e696598ef4349c1b3e2c9217d47e
   Specta: f506f3a8361de16bc0dcf3b17b75e269072ba465
 
 PODFILE CHECKSUM: 28a062078a9aa407905b9126727c77839cd39cff
