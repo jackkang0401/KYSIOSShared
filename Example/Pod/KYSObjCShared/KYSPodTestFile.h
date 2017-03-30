@@ -1,5 +1,5 @@
 //
-//  KYSTestFile.h
+//  KYSPodTestFile.h
 //  KYSIOSShared
 //
 //  Created by 康永帅 on 2017/3/30.
@@ -8,8 +8,6 @@
 
 #import <Foundation/Foundation.h>
 
-@interface KYSTestFile : NSObject
+@interface KYSPodTestFile : NSObject
 
-    
-    
 @end

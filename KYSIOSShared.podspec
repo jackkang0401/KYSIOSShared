@@ -30,7 +30,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'KYSObjCShared/*'
+  s.source_files = 'Example/Pod/KYSObjCShared/**/*'
   
   # s.resource_bundles = {
   #   'KYSIOSShared' => ['KYSIOSShared/Assets/*.png']

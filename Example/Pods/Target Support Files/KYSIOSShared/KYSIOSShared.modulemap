@@ -1,0 +1,6 @@
+framework module KYSIOSShared {
+  umbrella header "KYSIOSShared-umbrella.h"
+
+  export *
+  module * { export * }
+}
