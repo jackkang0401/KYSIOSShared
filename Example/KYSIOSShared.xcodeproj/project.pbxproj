@@ -24,6 +24,7 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		F1FF33F81E8D444800608326 /* KYSTestFile.m in Sources */ = {isa = PBXBuildFile; fileRef = F1FF33F71E8D444800608326 /* KYSTestFile.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +40,7 @@
 /* Begin PBXFileReference section */
 		05761A7DFFF61A8219BCC92E /* Pods-KYSIOSShared_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KYSIOSShared_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KYSIOSShared_Example/Pods-KYSIOSShared_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		0D415CFC9EB21AC87503DCA0 /* Pods_KYSIOSShared_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KYSIOSShared_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0F229CBBD2AAD76607498BF8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		0F229CBBD2AAD76607498BF8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* KYSIOSShared_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KYSIOSShared_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -63,10 +64,12 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9C8485B6DC5853DC28A67FD0 /* Pods-KYSIOSShared_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KYSIOSShared_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KYSIOSShared_Tests/Pods-KYSIOSShared_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		A0FBE4F52DBE1F7F65608276 /* Pods-KYSIOSShared_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KYSIOSShared_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-KYSIOSShared_Example/Pods-KYSIOSShared_Example.release.xcconfig"; sourceTree = "<group>"; };
-		A97FE44BAA1BE42FF810D752 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		A97FE44BAA1BE42FF810D752 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		C302C83BB340F4C1D4A84B9C /* Pods_KYSIOSShared_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KYSIOSShared_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C6E3B7EF52C648340392348F /* KYSIOSShared.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = KYSIOSShared.podspec; path = ../KYSIOSShared.podspec; sourceTree = "<group>"; };
+		C6E3B7EF52C648340392348F /* KYSIOSShared.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = KYSIOSShared.podspec; path = ../KYSIOSShared.podspec; sourceTree = "<group>"; };
 		CF6D69EC3207FDFEE4694A8E /* Pods-KYSIOSShared_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KYSIOSShared_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KYSIOSShared_Tests/Pods-KYSIOSShared_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		F1FF33F61E8D444800608326 /* KYSTestFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KYSTestFile.h; sourceTree = "<group>"; };
+		F1FF33F71E8D444800608326 /* KYSTestFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KYSTestFile.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +112,7 @@
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
+				F1FF33F51E8D430500608326 /* KYSObjCShared */,
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F593195388D20070C39A /* Example for KYSIOSShared */,
 				6003F5B5195388D20070C39A /* Tests */,
@@ -194,6 +198,15 @@
 				0F229CBBD2AAD76607498BF8 /* LICENSE */,
 			);
 			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		F1FF33F51E8D430500608326 /* KYSObjCShared */ = {
+			isa = PBXGroup;
+			children = (
+				F1FF33F61E8D444800608326 /* KYSTestFile.h */,
+				F1FF33F71E8D444800608326 /* KYSTestFile.m */,
+			);
+			path = KYSObjCShared;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -397,6 +410,7 @@
 				6003F59E195388D20070C39A /* KYSAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* KYSViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				F1FF33F81E8D444800608326 /* KYSTestFile.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

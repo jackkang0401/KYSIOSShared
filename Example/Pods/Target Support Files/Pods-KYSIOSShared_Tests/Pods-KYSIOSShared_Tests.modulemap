@@ -1,0 +1,6 @@
+framework module Pods_KYSIOSShared_Tests {
+  umbrella header "Pods-KYSIOSShared_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
