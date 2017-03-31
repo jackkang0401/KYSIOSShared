@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'KYSIOSShared'
-  s.version          = '0.1.2'
+  s.version          = '0.1.3'
   s.summary          = 'Shared Code'
 
 # This description is used to generate tags and improve search results.
@@ -36,9 +36,9 @@ Pod::Spec.new do |s|
     s1.source_files = 'Example/Pod/KYSObjCShared/KYSSubspec1/**/*'
   end
 
-  s.subspec 'KYSSubspec1' do |s2|
+  s.subspec 'KYSSubspec2' do |s2|
     s2.source_files = 'Example/Pod/KYSObjCShared/KYSSubspec2/**/*'
-    s2.dependency 'Example/Pod/KYSObjCShared/KYSSubspec1'
+    s2.dependency 'KYSIOSShared/KYSSubspec1'
   end
 
 

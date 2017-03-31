@@ -9,10 +9,12 @@ PODS:
   - FBSnapshotTestCase/Core (2.1.4)
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
-  - KYSIOSShared (0.1.2):
-    - KYSIOSShared/KYSSubspec1 (= 0.1.2)
-    - KYSIOSShared/KYSSubspec1 (= 0.1.2)
-  - KYSIOSShared/KYSSubspec1 (0.1.2)
+  - KYSIOSShared (0.1.3):
+    - KYSIOSShared/KYSSubspec1 (= 0.1.3)
+    - KYSIOSShared/KYSSubspec2 (= 0.1.3)
+  - KYSIOSShared/KYSSubspec1 (0.1.3)
+  - KYSIOSShared/KYSSubspec2 (0.1.3):
+    - KYSIOSShared/KYSSubspec1
   - Specta (1.0.6)
 
 DEPENDENCIES:
@@ -30,7 +32,7 @@ SPEC CHECKSUMS:
   Expecta: e1c022fcd33910b6be89c291d2775b3fe27a89fe
   Expecta+Snapshots: dcff217eef506dabd6dfdc7864ea2da321fafbb8
   FBSnapshotTestCase: '094f9f314decbabe373b87cc339bea235a63e07a'
-  KYSIOSShared: 5d1fd7cee0eb8cc136c414b6472b9307b1f6be8b
+  KYSIOSShared: eab76d07fb3484c5cdb9ee7cb3e86d0c2e5ac3f1
   Specta: f506f3a8361de16bc0dcf3b17b75e269072ba465
 
 PODFILE CHECKSUM: 28a062078a9aa407905b9126727c77839cd39cff

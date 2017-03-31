@@ -11,6 +11,7 @@
 #endif
 
 #import "KYSSubspecTest1.h"
+#import "KYSSubspecTest2.h"
 
 FOUNDATION_EXPORT double KYSIOSSharedVersionNumber;
 FOUNDATION_EXPORT const unsigned char KYSIOSSharedVersionString[];

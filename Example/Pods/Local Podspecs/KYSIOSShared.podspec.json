@@ -1,6 +1,6 @@
 {
   "name": "KYSIOSShared",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "summary": "Shared Code",
   "description": "This is the shared code",
   "homepage": "https://github.com/jackkang0401/KYSIOSShared",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/jackkang0401/KYSIOSShared.git",
-    "tag": "0.1.2"
+    "tag": "0.1.3"
   },
   "platforms": {
     "ios": "8.0"
@@ -24,10 +24,10 @@
       "source_files": "Example/Pod/KYSObjCShared/KYSSubspec1/**/*"
     },
     {
-      "name": "KYSSubspec1",
+      "name": "KYSSubspec2",
       "source_files": "Example/Pod/KYSObjCShared/KYSSubspec2/**/*",
       "dependencies": {
-        "Example/Pod/KYSObjCShared/KYSSubspec1": [
+        "KYSIOSShared/KYSSubspec1": [
 
         ]
       }
