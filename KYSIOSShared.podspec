@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'KYSIOSShared'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'Shared Code'
 
 # This description is used to generate tags and improve search results.
@@ -30,8 +30,18 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'Example/Pod/KYSObjCShared/**/*'
-  
+  # s.source_files = 'Example/Pod/KYSObjCShared/**/*'
+
+  s.subspec 'KYSSubspec1' do |s1|
+    s1.source_files = 'Example/Pod/KYSObjCShared/KYSSubspec1/**/*'
+  end
+
+  s.subspec 'KYSSubspec1' do |s2|
+    s2.source_files = 'Example/Pod/KYSObjCShared/KYSSubspec2/**/*'
+    s2.dependency 'Example/Pod/KYSObjCShared/KYSSubspec1'
+  end
+
+
   # s.resource_bundles = {
   #   'KYSIOSShared' => ['KYSIOSShared/Assets/*.png']
   # }
