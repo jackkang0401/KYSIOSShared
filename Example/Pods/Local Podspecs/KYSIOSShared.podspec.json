@@ -1,6 +1,6 @@
 {
   "name": "KYSIOSShared",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "summary": "Shared Code",
   "description": "This is the shared code",
   "homepage": "https://github.com/jackkang0401/KYSIOSShared",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/jackkang0401/KYSIOSShared.git",
-    "tag": "0.1.0"
+    "tag": "0.1.1"
   },
   "platforms": {
     "ios": "8.0"

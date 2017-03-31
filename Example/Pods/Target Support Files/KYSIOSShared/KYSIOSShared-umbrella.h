@@ -11,6 +11,7 @@
 #endif
 
 #import "KYSPodTestFile.h"
+#import "KYSPodUpdateVersion.h"
 
 FOUNDATION_EXPORT double KYSIOSSharedVersionNumber;
 FOUNDATION_EXPORT const unsigned char KYSIOSSharedVersionString[];
